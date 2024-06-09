@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Sofia Form</title>
+    <style>
+        .card-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-container">
+        <div class="card">
+            <div class="card-body">
+                <form id="patientForm">
+                    <div class="mb-3">
+                        <label for="FirstName" class="form-label">FirstName</label>
+                        <input type="text" class="form-control" id="FirstName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="LastName" class="form-label">LastName</label>
+                        <input type="text" class="form-control" id="LastName">
+                    </div>
+                    <div class="mb-3">
+                        <label for="BirthDate" class="form-label">BirthDate</label>
+                        <input type="date" class="form-control" id="BirthDate">
+                    </div>
+                    <fieldset class="mb-3">
+                        <legend class="col-form-label pt-0">Gender</legend>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Gender" id="female" value="Female" checked>
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Gender" id="male" value="Male">
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="responseModal" tabindex="-1" aria-labelledby="responseModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="responseModalLabel">Resposta da API</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- A mensagem do corpo será inserida aqui -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

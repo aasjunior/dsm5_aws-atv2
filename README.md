@@ -1,7 +1,7 @@
 # Atividade de Cloud - Serviços AWS
 
-<p align='justify'>Este trabalho consiste na implementação de uma solução de computação em nuvem utilizando a plataforma da <b>AWS</b>. Foi desenvolvida uma função <b>Lambda</b> em <b>python</b> responsável pelo cadastro de dados em um banco de dados <b>MySQL</b>, hospedado no serviço <b>RDS</b>. 
-A integração da função <b>Lambda</b> com o <b>front-end</b> é realizada através de uma <b>API Gateway</b>, que  recebe dados de um formulário  <b>HTML</b> construído com  <b>Bootstrap</b> e hospedado em um servidor <b>Apache</b>, operando em uma instância <b>EC2</b>.</p>
+Este trabalho consiste na implementação de uma solução de computação em nuvem utilizando a plataforma da <b>AWS</b>. Foi desenvolvida uma função <b>Lambda</b> em <b>python</b> responsável pelo cadastro de dados em um banco de dados <b>MySQL</b>, hospedado no serviço <b>RDS</b>. 
+A integração da função <b>Lambda</b> com o <b>front-end</b> é realizada através de uma <b>API Gateway</b>, que  recebe dados de um formulário  <b>HTML</b> construído com  <b>Bootstrap</b> e hospedado em um servidor <b>Apache</b>, operando em uma instância <b>EC2</b>.
 
 <div align="center">
   <img src="https://github.com/aasjunior/aws_atv2/assets/61213599/5fc97fc9-d8bf-486d-9e98-e8846c915377" width="800" />
